@@ -13,3 +13,6 @@ vundle:
 
 bash: .bash_aliases
 	cp .bash_aliases ~/.bash_aliases
+
+tmux: .tmux.conf
+	cp .tmux.conf ~/.tmux.conf
