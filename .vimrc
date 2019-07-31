@@ -9,6 +9,8 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'nvie/vim-flake8'
 Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plugin 'lifepillar/vim-solarized8'
+"Plugin 'Valloric/YouCompleteMe'
+
 " All of your Plugins must be added before the following line
 call vundle#end()
 filetype plugin indent on  " allows auto-indenting depending on file type
@@ -52,3 +54,6 @@ set noshowmode " Hide the default mode text (e.g. -- INSERT -- below the statusl
 let g:solarized_termcolors=256
 colorscheme solarized8
 set background=dark
+
+syntax enable
+
