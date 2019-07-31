@@ -10,3 +10,6 @@ vimrc: .vimrc
 vundle: 
 	rm -rf ~/.vim/bundle/Vundle.vim
 	git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+bash: .bash_aliases
+	cp .bash_aliases ~/.bash_aliases
