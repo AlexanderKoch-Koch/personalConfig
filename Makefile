@@ -18,7 +18,7 @@ bash: .bash_aliases
 tmux: .tmux.conf
 	cp .tmux.conf ~/.tmux.conf
 
-keyboard: us keyboard
+capslock: us keyboard
 	cp us /usr/share/X11/xkb/symbols
 	cp keyboard /etc/default
 	setxkbmap
