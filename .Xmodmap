@@ -1,0 +1,28 @@
+keycode 66 = Mode_switch
+  
+! set arraow keys
+keysym h = h H Left
+keysym j = j J Down
+keysym k = k K Up
+keysym l = l L Right
+
+!keysym 0x3b = 0x3b 0x3a Right
+!keysym k = k K Down
+keysym i = i I Home
+keysym p = p P End
+!keysym 0x3b = 0x3b 0x3a End
+!
+keycode  27 = r R Cyrillic_ka Cyrillic_KA
+keycode  28 = t T Cyrillic_ie Cyrillic_IE
+keycode  41 = f F Cyrillic_a Cyrillic_A
+
+keysym apostrophe = apostrophe quotedbl End
+!keysym p = p P Next
+keysym e = e E Escape 
+keycode  65 = space NoSymbol Escape 
+keycode  26 = e E EuroSign
+
+keycode  38 = a A adiaeresis Adiaeresis adiaeresis Adiaeresis
+keycode  30 = u U udiaeresis Udiaeresis udiaeresis Udiaeresis
+keycode  32 = o O odiaeresis Odiaeresis odiaeresis Odiaeresis
+keycode  39 = s S ssharp ssharp ssharp ssharp
