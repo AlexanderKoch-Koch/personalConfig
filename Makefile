@@ -18,7 +18,7 @@ bash: .bash_aliases
 tmux: .tmux.conf
 	cp .tmux.conf ~/.tmux.conf
 
-xmodmap: .Xmodmap
-	cp .Xmodmap ~/.Xmodmap
-	echo "xmodmap ~/.Xmodmap has to be executed"
-
+keyboard: us keyboard
+	cp us /usr/share/X11/xkb/symbols
+	cp keyboard /etc/default
+	setxkbmap
