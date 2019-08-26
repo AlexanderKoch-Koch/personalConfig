@@ -16,6 +16,7 @@ bash: .bash_aliases
 	echo "make sure your .bashrc sources this new file"
 
 tmux: .tmux.conf
+	sudo apt install xclip
 	cp .tmux.conf ~/.tmux.conf
 
 capslock: us keyboard
