@@ -11,6 +11,7 @@ Plugin 'nvie/vim-flake8'
 Plugin 'lifepillar/vim-solarized8'
 Plugin '907th/vim-auto-save'
 Plugin 'vim-airline/vim-airline'
+Plugin 'DoxygenToolkit.vim'
 "Plugin 'Valloric/YouCompleteMe'
 
 " All of your Plugins must be added before the following line
