@@ -16,18 +16,19 @@ call vundle#end()
 filetype plugin indent on  " allows auto-indenting depending on file type
 
 set encoding=utf-8
-
+let mapleader = "."
+nnoremap <leader>l :set invnumber<CR>
 :nnoremap G Gzz
 inoremap jk <Esc>
 :tnoremap <Esc> <C-\><C-n>
 tnoremap jk <C-\><C-n>
 
-set number
 
 "tab control
 nnoremap , :tabnext<CR>
 nnoremap m :tabprevious<CR>
 nnoremap <C-t> :tabnew<CR>
+
 
 :set tabstop=4
 :set shiftwidth=0
@@ -42,6 +43,10 @@ nmap <CR> o<Esc>
 set foldmethod=indent
 :nnoremap <expr> F  &foldlevel ? 'zM' :'zR'
 nnoremap f za
+
+" keep selection when indenting a visual block
+:vnoremap < <gv
+:vnoremap > >gv
 
 " Powerline (Fancy thingy at bottom stuff)
 let g:Powerline_symbols = 'fancy'
