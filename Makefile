@@ -23,3 +23,8 @@ capslock: us keyboard
 	cp us /usr/share/X11/xkb/symbols
 	cp keyboard /etc/default
 	setxkbmap
+
+
+pycharm:
+	cp .ideavimrc ~/
+
