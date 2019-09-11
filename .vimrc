@@ -18,10 +18,9 @@ filetype plugin indent on  " allows auto-indenting depending on file type
 set encoding=utf-8
 let mapleader = "."
 nnoremap <leader>l :set invnumber<CR>
-:nnoremap G Gzz
+nnoremap <leader>q :q!<CR>
+nnoremap G Gzz
 inoremap jk <Esc>
-:tnoremap <Esc> <C-\><C-n>
-tnoremap jk <C-\><C-n>
 
 
 "tab control
