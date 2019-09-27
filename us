@@ -42,6 +42,7 @@ xkb_symbols "basic" {
     key <AC10> {	[ semicolon,	colon		]	};
     key <AC11> {	[ apostrophe,	quotedbl	]	};
 
+    key <LSGT>	{ [ Shift_L,        bar,          bar,    brokenbar ]	};
     key <AB01> {	[	  z,	Z 		]	};
     key <AB02> {	[	  x,	X		]	};
     key <AB03> {	[	  c,	C		]	};
