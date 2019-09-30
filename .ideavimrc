@@ -44,15 +44,16 @@ nnoremap <space> <C-W><C-W>
 nmap <CR> o<Esc>
 
 " Enable folding
-set foldmethod=indent
+" set foldmethod=indent
+nnoremap o zo
+nnoremap f zc
 :nnoremap <expr> F  &foldlevel ? 'zM' :'zR'
-nnoremap f za
 
 " Powerline (Fancy thingy at bottom stuff)
-let g:Powerline_symbols = 'fancy'
-set laststatus=2   " Always show the statusline
-set encoding=utf-8 " Necessary to show Unicode glyphs
-set noshowmode " Hide the default mode text (e.g. -- INSERT -- below the statusline)
+" let g:Powerline_symbols = 'fancy'
+" set laststatus=2   " Always show the statusline
+" set encoding=utf-8 " Necessary to show Unicode glyphs
+" set noshowmode " Hide the default mode text (e.g. -- INSERT -- below the statusline)
 
 "use solarized colorscheme
 "let g:solarized_termcolors=256
