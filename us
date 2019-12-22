@@ -1,6 +1,4 @@
-default  partial alphanumeric_keys modifier_keys
-xkb_symbols "basic" {
-
+default  partial alphanumeric_keys modifier_keys xkb_symbols "basic" { 
     name[Group1]= "English (US)";
 
     key <TLDE> {	[     grave,	asciitilde	]	};
@@ -42,7 +40,7 @@ xkb_symbols "basic" {
     key <AC10> {	[ semicolon,	colon		]	};
     key <AC11> {	[ apostrophe,	quotedbl	]	};
 
-    key <LSGT>	{ [ Shift_L,        bar,          bar,    brokenbar ]	};
+    key <LSGT>	{ [ Shift_L, Shift_L, Shift_L, Shift_L ]};
     key <AB01> {	[	  z,	Z 		]	};
     key <AB02> {	[	  x,	X		]	};
     key <AB03> {	[	  c,	C		]	};
@@ -55,7 +53,10 @@ xkb_symbols "basic" {
     key <AB10> {	[     slash,	question	]	};
 
     key <BKSL> {	[ backslash,         bar	]	};
-	key <RALT>{ [Super_L]};
+	key <RALT> {    [ Super_L]   };
+	key <RTSH> {    [ Escape] };
+
+
 };
 
 partial alphanumeric_keys
