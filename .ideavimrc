@@ -18,6 +18,13 @@ call vundle#end()
 filetype plugin indent on  " allows auto-indenting depending on file type
 
 
+let mapleader = "."
+nmap <leader>l :action EditorToggleShowLineNumbers<cr>
+nmap t :action CloseEditor<cr>
+nmap T :action ReopenClosedTab<cr>
+nnmap U :action MoveTabRight<cr>
+
+
 set encoding=utf-8
 
 :nnoremap G Gzz
@@ -26,11 +33,9 @@ inoremap jk <Esc>
 :tnoremap <Esc> <C-\><C-n>
 tnoremap jk <C-\><C-n>
 
-set number
-
 "tab control
-nnoremap , :tabnext<CR>
-nnoremap m :tabprevious<CR>
+nnoremap K :tabnext<CR>
+nnoremap J :tabprevious<CR>
 nnoremap <C-t> :tabnew<CR>
 
 :set tabstop=4
